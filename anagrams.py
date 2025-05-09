@@ -12,6 +12,7 @@ def anagram(s):
     # Write your code here
     
     # Exclude not equals strings
+
     if len(s)%2 == 1:
         return(-1)
     else:
