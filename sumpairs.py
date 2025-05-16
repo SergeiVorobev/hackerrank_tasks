@@ -17,6 +17,7 @@ def divisibleSumPairs(n, k, ar):
                 pairs+=1
     return pairs
 
+
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
     n = int(first_multiple_input[0])
